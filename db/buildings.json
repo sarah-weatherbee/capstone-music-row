@@ -32,7 +32,7 @@
   "building6": {
     "name": "Hummingbird Productions",
     "mapViewBefore": "https://www.google.com/maps/place/7+Music+Square+W,+Nashville,+TN+37203/@36.1513844,-86.7929622,3a,75y,277.29h,93.99t/data=!3m6!1e1!3m4!1spKlV0_SmbtJtfpEnL8DnrQ!2e0!7i13312!8i6656!4m5!3m4!1s0x8864669241eb1c3f:0xe1265bd2df08511b!8m2!3d36.1514057!4d-86.7932417",
-    "yearDemoloshed": "2014",
+    "yearDemolished": "2014",
     "address": "7 Music Square West, Nashville, TN 37203"
   },
   "building7": {
@@ -205,7 +205,7 @@
   },
   "building35": {
     "name": "Apartments",
-    "mapViewVefore": "https://www.google.com/maps/place/812+18th+Ave+S,+Nashville,+TN+37203/@36.1493031,-86.7946465,3a,75y,109.7h,90t/data=!3m6!1e1!3m4!1soIWusN-3po-VDIjkCWvUZg!2e0!7i13312!8i6656!4m5!3m4!1s0x8864669178487f29:0xbda89db547de757e!8m2!3d36.1490882!4d-86.794367",
+    "mapViewBefore": "https://www.google.com/maps/place/812+18th+Ave+S,+Nashville,+TN+37203/@36.1493031,-86.7946465,3a,75y,109.7h,90t/data=!3m6!1e1!3m4!1soIWusN-3po-VDIjkCWvUZg!2e0!7i13312!8i6656!4m5!3m4!1s0x8864669178487f29:0xbda89db547de757e!8m2!3d36.1490882!4d-86.794367",
     "yearDemolished": "2016",
     "address": "812 18th Ave. S., Nashville, TN 37203"
   },
@@ -239,11 +239,4 @@
     "yearDemolished": "2018",
     "address": "808 19th Ave. S., Nashville, TN "
   }
-
-
-
-
-
-
-
 }
