@@ -5,12 +5,12 @@
     "note": "Now apartments."
   },
   "note2": {
-    "uid": " ",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building1",
     "note": "Now apartments."
   },
   "note3": {
-    "uid": " ",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building2",
     "note": "Now apartments."
   },
@@ -25,7 +25,7 @@
     "note": "To be Virgin Hotel."
   },
   "note6": {
-    "uid": " ",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "builidng6",
     "note": "To be Virgin Hotel."
   },
@@ -35,12 +35,12 @@
     "note": "Is this building record correct?"
   },
   "note8": {
-    "uid": " ",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building8",
-    "note": "building front notes BBR; is this Cedarwood Publishing/Combine?"
+    "note": "Building front says BBR; is this Cedarwood Publishing/Combine?"
   },
   "note9": {
-    "uid": " ",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building9",
     "note": "not sure if the address 39 Music Square East still exists."
   },
@@ -50,12 +50,12 @@
     "note": "Is now SESAC."
   },
   "note11": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building11",
     "note": "The closest map view before demolition is 1305 Division St."
   },
   "note12": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building12",
     "note": "There was a fire here."
   },
@@ -70,12 +70,12 @@
     "note": "Apartments"
   },
   "note15": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building15",
     "note": "apartments"
   },
   "note16": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building16",
     "note": "apartments"
   },
@@ -85,7 +85,7 @@
     "note": "apartments"
   },
   "note18": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building18",
     "note": "apartments"
   },
@@ -95,7 +95,7 @@
     "note": "parking lot"
   },
   "note20": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building20",
     "note": "mixed use"
   },
@@ -105,7 +105,7 @@
     "note": "Sky apartments"
   },
   "note22": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building22",
     "note": "Sky apartments"
   },
@@ -115,7 +115,7 @@
     "note": "Sky apartments"
   },
   "note24": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building24",
     "note": "apartments"
   },
@@ -130,12 +130,12 @@
     "note": "apartments"
   },
   "note27": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building27",
     "note": "apartments"
   },
   "note28": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building28",
     "note": "apartments"
   },
@@ -150,12 +150,12 @@
     "note": "apartments"
   },
   "note31": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building31",
     "note": "apartments"
   },
   "note32": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building32",
     "note": "parking lot"
   },
@@ -165,12 +165,12 @@
     "note": "office/garage"
   },
   "note34": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building34",
     "note": "office/garage"
   },
   "note35": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building35",
     "note": "office/garage"
   },
@@ -180,12 +180,12 @@
     "note": "office (demolished all but three exterior walls"
   },
   "note37": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building37",
     "note": "vacant lot"
   },
   "note38": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building38",
     "note": "apartments"
   },
@@ -195,9 +195,8 @@
     "note": "apartments"
   },
   "note40": {
-    "uid": "",
+    "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building40",
     "note": "apartments"
   }
-
 }
