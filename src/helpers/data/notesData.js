@@ -16,4 +16,6 @@ const getNotes = buildingId => new Promise((resolve, reject) => {
     .catch(err => reject(err));
 });
 
-export default { getNotes };
+const deleteNote = noteId => axios.delete(`${baseUrl}/notes/${noteId}.json`);
+
+export default { getNotes, deleteNote };

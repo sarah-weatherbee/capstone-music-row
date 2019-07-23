@@ -15,12 +15,22 @@ class SingleBuilding extends React.Component {
     notes: [],
   }
 
-  componentDidMount() {
+  getNotes = () => {
     const buildingId = this.props.building.id;
 
     notesData.getNotes(buildingId)
       .then(notes => this.setState({ notes }))
       .catch(err => console.error('no notes from SingleBuilding', err));
+  }
+
+  componentDidMount() {
+    this.getNotes();
+  }
+
+  deleteNote = (noteId) => {
+    notesData.deleteNote(noteId)
+      .then(() => this.getNotes())
+      .catch(err => console.error('error deleting', err));
   }
 
   render() {
@@ -34,7 +44,7 @@ class SingleBuilding extends React.Component {
             <h4 className="card-text">Year demolished: {building.yearDemolished}</h4>
             <a href={building.mapViewBefore} target="_blank" rel="noopener noreferrer">Map view before</a>
             <h4 className="card-text">Address: {building.address}</h4>
-            <NotesCorral notes={ notes }/>
+            <NotesCorral notes={ notes } deleteNote={this.deleteNote}/>
           </div>
         </div>
       </div>
