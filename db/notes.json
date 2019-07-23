@@ -21,17 +21,17 @@
   },
   "note5": {
     "uid": "12345",
-    "buildingId": "builidng5",
+    "buildingId": "building5",
     "note": "To be Virgin Hotel."
   },
   "note6": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
-    "buildingId": "builidng6",
+    "buildingId": "building6",
     "note": "To be Virgin Hotel."
   },
   "note7": {
     "uid": "6789",
-    "buildingId": "builidng7",
+    "buildingId": "building7",
     "note": "Is this building record correct?"
   },
   "note8": {
@@ -61,7 +61,7 @@
   },
   "note13": {
     "uid": "6789",
-    "builidngId": "building13",
+    "buildingId": "building13",
     "note": "Now apartments"
   },
   "note14": {
