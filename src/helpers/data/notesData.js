@@ -18,4 +18,6 @@ const getNotes = buildingId => new Promise((resolve, reject) => {
 
 const deleteNote = noteId => axios.delete(`${baseUrl}/notes/${noteId}.json`);
 
-export default { getNotes, deleteNote };
+const postNote = newNote => axios.post(`${baseUrl}/notes.json`, newNote);
+
+export default { getNotes, deleteNote, postNote };
