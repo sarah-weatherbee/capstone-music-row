@@ -2,6 +2,7 @@ import React from 'react';
 import buildingShape from '../../helpers/propz/buildingShape';
 import notesData from '../../helpers/data/notesData';
 import NotesCorral from '../NotesCorral/NotesCorral';
+import AddNoteForm from '../AddNoteForm/AddNoteForm';
 
 import './SingleBuilding.scss';
 
@@ -33,6 +34,13 @@ class SingleBuilding extends React.Component {
       .catch(err => console.error('error deleting', err));
   }
 
+  saveNewNote = (note) => {
+    notesData.postNote(note)
+      .then(() => {
+        this.getNotes();
+      });
+  }
+
   render() {
     const { building } = this.props;
     const { notes } = this.state;
@@ -45,6 +53,7 @@ class SingleBuilding extends React.Component {
             <a href={building.mapViewBefore} target="_blank" rel="noopener noreferrer">Map view before</a>
             <h4 className="card-text">Address: {building.address}</h4>
             <NotesCorral notes={ notes } deleteNote={this.deleteNote}/>
+            <AddNoteForm buildingId = { building.id } saveNewNote={ this.saveNewNote } />
           </div>
         </div>
       </div>
