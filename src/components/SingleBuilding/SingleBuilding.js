@@ -34,6 +34,15 @@ class SingleBuilding extends React.Component {
       .catch(err => console.error('error deleting', err));
   }
 
+  editNote = (note) => {
+    const newNote = { ...note };
+    const noteId = newNote.id;
+    delete newNote.id;
+    notesData.editNote(noteId, newNote)
+      .then(() => this.getNotes())
+      .catch(err => console.error('error editing', err));
+  }
+
   saveNewNote = (note) => {
     notesData.postNote(note)
       .then(() => {
@@ -52,7 +61,7 @@ class SingleBuilding extends React.Component {
             <h4 className="card-text">Year demolished: {building.yearDemolished}</h4>
             <a href={building.mapViewBefore} target="_blank" rel="noopener noreferrer">Map view before</a>
             <h4 className="card-text">Address: {building.address}</h4>
-            <NotesCorral notes={ notes } deleteNote={this.deleteNote}/>
+            <NotesCorral notes={ notes } deleteNote={this.deleteNote} editNote={this.editNote}/>
             <AddNoteForm buildingId = { building.id } saveNewNote={ this.saveNewNote } />
           </div>
         </div>

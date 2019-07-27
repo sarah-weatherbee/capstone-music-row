@@ -1,26 +1,20 @@
 import React from 'react';
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import {
-  Input,
-  InputGroup,
-} from 'reactstrap';
-import notesData from '../../helpers/data/notesData';
 
 class AddNoteForm extends React.Component {
   state = {
     newNote: '',
   }
 
-formFieldStringState = (name, e) => {
+formFieldStringState = (e) => {
   let tempNote = this.state.newNote;
   tempNote = e.target.value;
   this.setState({ newNote: tempNote });
 }
 
 noteChange = (e) => {
-  this.formFieldStringState('note', e);
-
+  this.formFieldStringState(e);
 };
 
 formSubmit = (e) => {
@@ -30,8 +24,8 @@ formSubmit = (e) => {
   saveMe.uid = firebase.auth().currentUser.uid;
   saveMe.buildingId = this.props.buildingId;
   saveMe.note = this.state.newNote;
-  saveNewNote(saveMe);
   this.setState({ newNote: '' });
+  saveNewNote(saveMe);
 }
 
 render() {
@@ -47,7 +41,7 @@ render() {
           className="form-control"
           id="name-content"
           placeholder="type note here"
-          defaultValue={newNote}
+          value={newNote}
           onChange={this.noteChange}
           />
         </div>
