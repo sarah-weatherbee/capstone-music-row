@@ -7,6 +7,22 @@ class SingleNote extends React.Component {
   static propTypes = {
     building: noteShape.noteShape,
     deleteNote: PropTypes.func.isRequired,
+    editNote: PropTypes.func.isRequired,
+  }
+
+  state = {
+    isEditing: false,
+    note: {
+      uid: '',
+      buildingId: '',
+      note: '',
+      id: '',
+    },
+  }
+
+
+  componentDidMount() {
+    this.setState({ note: this.props.note });
   }
 
   deleteNoteEvent = (e) => {
@@ -15,15 +31,44 @@ class SingleNote extends React.Component {
     deleteNote(note.id);
   }
 
+  editNoteToggle = (e) => {
+    e.preventDefault();
+    this.setState({ isEditing: true });
+  }
+
+  editNoteEvent = (e) => {
+    e.preventDefault();
+    this.props.editNote(this.state.note);
+    this.setState({ isEditing: false });
+  }
+
+  formFieldStringState = (name, e) => {
+    const tempNote = { ...this.state.note };
+    tempNote[name] = e.target.value;
+    this.setState({ note: tempNote });
+  }
+
+  noteChange = e => this.formFieldStringState('note', e);
+
+
   render() {
-    const { note } = this.props;
+    const { isEditing, note } = this.state;
     return (
       <div className="SingleNote">
         <div className="card m-3">
-          <div className="card-body">
-            <h4 className="card-text">{note.note}</h4>
-            <button className="btn btn-danger" onClick={this.deleteNoteEvent}>x</button>
-          </div>
+
+            {isEditing ? (
+              <div className="card-body">
+                <input value={note.note} onChange={this.noteChange}/>
+                <button className="btn btn-secondary" onClick={this.editNoteEvent}>Submit</button>
+              </div>
+            ) : (
+              <div className="card-body">
+                <h4 className="card-text">{note.note}</h4>
+                <button className="btn btn-primary" onClick={this.editNoteToggle}>Edit Note</button>
+                <button className="btn btn-danger" onClick={this.deleteNoteEvent}>x</button>
+              </div>
+            ) }
         </div>
       </div>
     );

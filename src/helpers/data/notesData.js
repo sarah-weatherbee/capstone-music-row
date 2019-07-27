@@ -20,4 +20,11 @@ const deleteNote = noteId => axios.delete(`${baseUrl}/notes/${noteId}.json`);
 
 const postNote = newNote => axios.post(`${baseUrl}/notes.json`, newNote);
 
-export default { getNotes, deleteNote, postNote };
+const editNote = (noteId, updateNote) => axios.put(`${baseUrl}/notes/${noteId}.json`, updateNote);
+
+export default {
+  getNotes,
+  deleteNote,
+  postNote,
+  editNote,
+};

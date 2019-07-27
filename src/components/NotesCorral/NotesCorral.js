@@ -9,11 +9,17 @@ class NotesCorral extends React.Component {
   static propTypes = {
     notes: PropTypes.arrayOf(noteShape.noteShape),
     deleteNote: PropTypes.func.isRequired,
+    editNote: PropTypes.func.isRequired,
   }
 
   render() {
     const noteComponents = this.props.notes.map(note => (
-      <SingleNote key={note.id} note={note} deleteNote={this.props.deleteNote}/>
+      <SingleNote
+        key={note.id}
+        note={note}
+        deleteNote={this.props.deleteNote}
+        editNote={this.props.editNote}
+      />
     ));
     return (
       <div className="NotesCorral">
