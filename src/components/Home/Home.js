@@ -36,14 +36,15 @@ class Home extends React.Component {
 
     return (
        <div className="Home">
-         <div className="row">
-           <button className="btn btn-secondary" onClick={this.toggleYear}>All</button>
-           <button className="btn btn-secondary" onClick={this.toggleYear}>2013</button>
-           <button className="btn btn-secondary" onClick={this.toggleYear}>2014</button>
-           <button className="btn btn-secondary" onClick={this.toggleYear}>2015</button>
-           <button className="btn btn-secondary" onClick={this.toggleYear}>2016</button>
-           <button className="btn btn-secondary" onClick={this.toggleYear}>2017</button>
-           <button className="btn btn-secondary" onClick={this.toggleYear}>2018</button>
+         <div className="col-lg-8 mx-auto">
+           <h2 className="m-2">Demolished Buildings on music row: 2013 to 2018</h2>
+           <button className="btn btn-secondary m-2" onClick={this.toggleYear}>All</button>
+           <button className="btn btn-secondary m-2" onClick={this.toggleYear}>2013</button>
+           <button className="btn btn-secondary m-2" onClick={this.toggleYear}>2014</button>
+           <button className="btn btn-secondary m-2" onClick={this.toggleYear}>2015</button>
+           <button className="btn btn-secondary m-2" onClick={this.toggleYear}>2016</button>
+           <button className="btn btn-secondary m-2" onClick={this.toggleYear}>2017</button>
+           <button className="btn btn-secondary m-2" onClick={this.toggleYear}>2018</button>
          </div>
          <BuildingCorral buildings={ selectedBuildings } />
        </div>

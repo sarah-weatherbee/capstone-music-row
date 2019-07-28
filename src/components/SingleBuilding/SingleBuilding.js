@@ -14,6 +14,7 @@ class SingleBuilding extends React.Component {
 
   state = {
     notes: [],
+    isNew: false,
   }
 
   getNotes = () => {
@@ -47,22 +48,36 @@ class SingleBuilding extends React.Component {
     notesData.postNote(note)
       .then(() => {
         this.getNotes();
+        this.toggleAddNote();
       });
   }
 
+  toggleAddNote = () => {
+    this.setState({ isNew: !this.state.isNew });
+  }
+
+
   render() {
     const { building } = this.props;
-    const { notes } = this.state;
+    const { notes, isNew } = this.state;
+
     return (
-      <div className="SingleBuilding row">
+      <div className="SingleBuilding container col-4">
+        <div className="row">
         <div className="card m-3">
           <div className="card-body">
             <h4 className="card-title">{building.name}</h4>
-            <h4 className="card-text">Year demolished: {building.yearDemolished}</h4>
-            <a href={building.mapViewBefore} target="_blank" rel="noopener noreferrer">Map view before</a>
-            <h4 className="card-text">Address: {building.address}</h4>
+            <h5 className="card-text d-flex justify-content-start">Year demolished: {building.yearDemolished}</h5>
+            <a href={building.mapViewBefore} target="_blank" rel="noopener noreferrer" className="d-flex justify-content-start">Map view before</a>
+            <h5 className="card-text d-flex justify-content-start mb-4">Address: {building.address}</h5>
             <NotesCorral notes={ notes } deleteNote={this.deleteNote} editNote={this.editNote}/>
-            <AddNoteForm buildingId = { building.id } saveNewNote={ this.saveNewNote } />
+            {isNew ? (
+              <AddNoteForm buildingId = { building.id } saveNewNote={ this.saveNewNote } />
+            ) : (
+              <button className="btn btn-secondary" onClick={this.toggleAddNote}>Add a note</button>
+            )}
+
+          </div>
           </div>
         </div>
       </div>

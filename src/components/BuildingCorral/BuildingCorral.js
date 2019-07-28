@@ -16,8 +16,7 @@ class BuildingCorral extends React.Component {
       <SingleBuilding key={building.id} building={building} />
     ));
     return (
-        <div className="BuildingCorral">
-          <h1>Demolished Buildings</h1>
+        <div className="BuildingCorral d-flex flex-wrap">
           {buildingComponents}
         </div>
     );
