@@ -64,7 +64,7 @@ class SingleNote extends React.Component {
               </div>
             ) : (
               <div className="card-body">
-                <h4 className="card-text">{note.note}</h4>
+                <h6 className="card-text">{note.note}</h6>
                 <button className="btn btn-primary" onClick={this.editNoteToggle}>Edit Note</button>
                 <button className="btn btn-danger" onClick={this.deleteNoteEvent}>x</button>
               </div>
