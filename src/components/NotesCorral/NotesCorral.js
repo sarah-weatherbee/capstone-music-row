@@ -22,7 +22,7 @@ class NotesCorral extends React.Component {
       />
     ));
     return (
-      <div className="NotesCorral">
+      <div className="NotesCorral col-sm-12 col-lg-12">
         <h4>Building Notes</h4>
         {noteComponents}
       </div>
