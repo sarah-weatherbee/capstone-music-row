@@ -13,6 +13,7 @@ formFieldStringState = (e) => {
   this.setState({ newNote: tempNote });
 }
 
+
 noteChange = (e) => {
   this.formFieldStringState(e);
 };
@@ -32,10 +33,11 @@ render() {
   const { newNote } = this.state;
   return (
     <div className="NewNote">
-      <h1>new note</h1>
+      <h4>New note</h4>
+      <button className="btn-xs btn-primary" onClick={this.cancelAddNote}>cancel add</button>
       <form onSubmit={this.formSubmit}>
         <div className="form-group">
-          <label htmlFor="name-content">Note content</label>
+          <label htmlFor="name-content">Write a note about the building</label>
           <input
           type="text"
           className="form-control"

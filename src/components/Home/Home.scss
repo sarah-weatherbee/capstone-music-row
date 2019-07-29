@@ -1,3 +1,12 @@
 .Home {
   display: block;
+
 }
+
+.btn.year:focus,.btn.year:active {
+  outline: none !important;
+  box-shadow: none;
+  background-color: yellow;
+  color: black;
+}
+

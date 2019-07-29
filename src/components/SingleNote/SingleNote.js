@@ -42,6 +42,11 @@ class SingleNote extends React.Component {
     this.setState({ isEditing: false });
   }
 
+  cancelNoteEvent= (e) => {
+    e.preventDefault();
+    this.setState({ isEditing: false });
+  }
+
   formFieldStringState = (name, e) => {
     const tempNote = { ...this.state.note };
     tempNote[name] = e.target.value;
@@ -55,10 +60,11 @@ class SingleNote extends React.Component {
     const { isEditing, note } = this.state;
     return (
       <div className="SingleNote">
-        <div className="card m-3">
+        <div className="card m-3 col-sm-12 col-lg-12">
 
             {isEditing ? (
               <div className="card-body">
+                <button className="btn-xs btn-primary" onClick={this.cancelNoteEvent}>cancel edit</button>
                 <input value={note.note} onChange={this.noteChange}/>
                 <button className="btn btn-secondary" onClick={this.editNoteEvent}>Submit</button>
               </div>
