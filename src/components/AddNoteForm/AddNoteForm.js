@@ -25,8 +25,14 @@ formSubmit = (e) => {
   saveMe.uid = firebase.auth().currentUser.uid;
   saveMe.buildingId = this.props.buildingId;
   saveMe.note = this.state.newNote;
+  saveMe.noteDate = Date.now();
   this.setState({ newNote: '' });
   saveNewNote(saveMe);
+}
+
+cancelAddNote = (e) => {
+  e.preventDefault();
+  this.props.toggleForm();
 }
 
 render() {
