@@ -72,7 +72,7 @@ class SingleBuilding extends React.Component {
             <h5 className="card-text d-flex justify-content-start mb-4">Address: {building.address}</h5>
             <NotesCorral notes={ notes } deleteNote={this.deleteNote} editNote={this.editNote}/>
             {isNew ? (
-              <AddNoteForm buildingId = { building.id } saveNewNote={ this.saveNewNote } />
+              <AddNoteForm buildingId = { building.id } saveNewNote={ this.saveNewNote } toggleForm={this.toggleAddNote}/>
             ) : (
               <button className="btn btn-secondary" onClick={this.toggleAddNote}>Add a note</button>
             )}

@@ -11,6 +11,7 @@ const getNotes = buildingId => new Promise((resolve, reject) => {
         res.data[fbKey].id = fbKey;
         notes.push(res.data[fbKey]);
       });
+      notes.sort((a, b) => a.noteDate - b.noteDate);
       resolve(notes);
     })
     .catch(err => reject(err));
