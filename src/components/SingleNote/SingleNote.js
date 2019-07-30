@@ -1,4 +1,5 @@
 import React from 'react';
+import Moment from 'react-moment';
 import PropTypes from 'prop-types';
 import noteShape from '../../helpers/propz/noteShape';
 import './SingleNote.scss';
@@ -70,6 +71,7 @@ class SingleNote extends React.Component {
               </div>
             ) : (
               <div className="card-body">
+                <Moment format="MM/DD/YYYY">{note.noteDate}</Moment>
                 <h6 className="card-text">{note.note}</h6>
                 <button className="btn btn-primary" onClick={this.editNoteToggle}>Edit Note</button>
                 <button className="btn btn-danger" onClick={this.deleteNoteEvent}>x</button>

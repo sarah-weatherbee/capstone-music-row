@@ -2,201 +2,241 @@
   "note1": {
     "uid": "12345",
     "buildingId": "building3",
-    "note": "Now apartments."
+    "note": "Now apartments.",
+    "noteDate": 1564444208644
   },
   "note2": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building1",
-    "note": "Now apartments."
+    "note": "Now apartments.",
+    "noteDate": 1564444208644
   },
   "note3": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building2",
-    "note": "Now apartments."
+    "note": "Now apartments.",
+    "noteDate": 1564444208644
   },
   "note4": {
     "uid": "6789",
     "buildingId": "building4",
-    "note": "Now artisan apartments."
+    "note": "Now artisan apartments.",
+    "noteDate": 1564444208644
   },
   "note5": {
     "uid": "12345",
     "buildingId": "building5",
-    "note": "To be Virgin Hotel."
+    "note": "To be Virgin Hotel.",
+    "noteDate": 1564444208644
   },
   "note6": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building6",
-    "note": "To be Virgin Hotel."
+    "note": "To be Virgin Hotel.",
+    "noteDate": 1564444208644
   },
   "note7": {
     "uid": "6789",
     "buildingId": "building7",
-    "note": "Is this building record correct?"
+    "note": "Is this building record correct?",
+    "noteDate": 1564444208644
   },
   "note8": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building8",
-    "note": "Building front says BBR; is this Cedarwood Publishing/Combine?"
+    "note": "Building front says BBR; is this Cedarwood Publishing/Combine?",
+    "noteDate": 1564444208644
   },
   "note9": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building9",
-    "note": "not sure if the address 39 Music Square East still exists."
+    "note": "not sure if the address 39 Music Square East still exists.",
+    "noteDate": 1564444208644
   },
   "note10": {
     "uid": "6789",
     "buildingId": "building10",
-    "note": "Is now SESAC."
+    "note": "Is now SESAC.",
+    "noteDate": 1564444208644
   },
   "note11": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building11",
-    "note": "The closest map view before demolition is 1305 Division St."
+    "note": "The closest map view before demolition is 1305 Division St.",
+    "noteDate": 1564444208644
   },
   "note12": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building12",
-    "note": "There was a fire here."
+    "note": "There was a fire here.",
+    "noteDate": 1564444208644
   },
   "note13": {
     "uid": "6789",
     "buildingId": "building13",
-    "note": "Now apartments"
+    "note": "Now apartments",
+    "noteDate": 1564444208644
   },
   "note14": {
     "uid": "12345",
     "buildingId": "building14",
-    "note": "Apartments"
+    "note": "Apartments",
+    "noteDate": 1564444208644
   },
   "note15": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building15",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note16": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building16",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note17": {
     "uid": "12345",
     "buildingId": "building17",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note18": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building18",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note19": {
     "uid": "12345",
     "buildingId": "building19",
-    "note": "parking lot"
+    "note": "parking lot",
+    "noteDate": 1564444208644
   },
   "note20": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building20",
-    "note": "mixed use"
+    "note": "mixed use",
+    "noteDate": 1564444208644
   },
   "note21": {
     "uid": "6789",
     "buildingId": "building21",
-    "note": "Sky apartments"
+    "note": "Sky apartments",
+    "noteDate": 1564444208644
   },
   "note22": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building22",
-    "note": "Sky apartments"
+    "note": "Sky apartments",
+    "noteDate": 1564444208644
   },
   "note23": {
     "uid": "6789",
     "buildingId": "building23",
-    "note": "Sky apartments"
+    "note": "Sky apartments",
+    "noteDate": 1564444208644
   },
   "note24": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building24",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note25": {
     "uid": "12345",
     "buildingId": "building25",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note26": {
     "uid": "12345",
     "buildingId": "building26",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note27": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building27",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note28": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building28",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note29": {
     "uid": "12345",
     "buildingId": "building29",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note30": {
     "uid": "6789",
     "buildingId": "building30",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note31": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building31",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note32": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building32",
-    "note": "parking lot"
+    "note": "parking lot",
+    "noteDate": 1564444208644
   },
   "note33": {
     "uid": "6789",
     "buildingId": "building33",
-    "note": "office/garage"
+    "note": "office/garage",
+    "noteDate": 1564444208644
   },
   "note34": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building34",
-    "note": "office/garage"
+    "note": "office/garage",
+    "noteDate": 1564444208644
   },
   "note35": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building35",
-    "note": "office/garage"
+    "note": "office/garage",
+    "noteDate": 1564444208644
   },
   "note36": {
     "uid": "12345",
     "buildingId": "building36",
-    "note": "office (demolished all but three exterior walls"
+    "note": "office (demolished all but three exterior walls",
+    "noteDate": 1564444208644
   },
   "note37": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building37",
-    "note": "vacant lot"
+    "note": "vacant lot",
+    "noteDate": 1564444208644
   },
   "note38": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building38",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note39": {
     "uid": "12345",
     "buildingId": "building39",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   },
   "note40": {
     "uid": "qNV6y4IPOxMymlMWsyqagPy2qvv1",
     "buildingId": "building40",
-    "note": "apartments"
+    "note": "apartments",
+    "noteDate": 1564444208644
   }
 }
