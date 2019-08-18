@@ -1,6 +1,27 @@
 .SingleBuilding {
   display: block;
-  h5 {
-    text-align: justify;
-  }
+  // h5 {
+  //   text-align: justify;
+  // }
+}
+
+.image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.address {
+  margin: 0;
+  text-align: center;
+}
+
+.demolished {
+  margin-top: 1rem;
+  background-color: rgba(200, 200, 200, 0.288);
+  padding: 10px;
+  text-align: center;
+}
+
+.building-name {
+  margin-bottom: .25rem;
 }
